@@ -5,7 +5,6 @@ import org.junit.Test;
 import static io.restassured.RestAssured.*;
 
 public class PingHealthCheckTest {
-
     @Test
     public void healthCheck_shouldReturn201() {
         given().
